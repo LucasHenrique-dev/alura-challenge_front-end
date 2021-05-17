@@ -10,10 +10,10 @@ body{
 
 header{
     position: absolute;
-    width: 343px;
+    width: 1376px;
     height: 56px;
-    left: 16px;
-    top: 16px;
+    left: 32px;
+    top: 32px;
 }
 
 img.logo{
@@ -21,5 +21,42 @@ img.logo{
     width: 145px;
     height: 34.05px;
     left: 0px;
-    top: 11px;
+    top: 12px;
+}
+
+label.textfield{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    left: 22.67%;
+    right: 22.67%;
+    top: 0%;
+    bottom: 0%;
+}
+
+img.base{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 752px;
+    height: 56px;
+    left: 0px;
+    top: 0px;
+
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 8px;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
 }
