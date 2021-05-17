@@ -1,0 +1,25 @@
+body{
+    position: relative;
+    width: 375px;
+    height: 1248px;
+    overflow-y: scroll;
+
+    background: #051D3B;
+    border-radius: 24px;
+}
+
+header{
+    position: absolute;
+    width: 343px;
+    height: 56px;
+    left: 16px;
+    top: 16px;
+}
+
+img.logo{
+    position: absolute;
+    width: 145px;
+    height: 34.05px;
+    left: 0px;
+    top: 11px;
+}
