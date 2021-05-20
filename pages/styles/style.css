@@ -1,22 +1,20 @@
 body{
     position: relative;
-    width: 375px;
-    height: 1248px;
-    overflow-y: scroll;
+    /* width: 1440px;
+    height: 1024px; */
 
     background: #051D3B;
-    border-radius: 24px;
 }
 
 header{
     position: absolute;
-    width: 1376px;
+    width: 960px;
     height: 56px;
     left: 32px;
     top: 32px;
 }
 
-img.logo{
+.logo{
     position: absolute;
     width: 145px;
     height: 34.05px;
@@ -24,7 +22,7 @@ img.logo{
     top: 12px;
 }
 
-label.textfield{
+.text-filed {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -37,11 +35,11 @@ label.textfield{
     bottom: 0%;
 }
 
-img.base{
+ .barra-pesquisa {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
+    padding: 0px 16px;
 
     position: static;
     width: 752px;
@@ -50,13 +48,12 @@ img.base{
     top: 0px;
 
     background: rgba(255, 255, 255, 0.16);
+    border: none;
     border-radius: 8px;
-
-    /* Inside Auto Layout */
 
     flex: none;
     order: 0;
     align-self: stretch;
     flex-grow: 0;
     margin: 0px 0px;
-}
+ }
