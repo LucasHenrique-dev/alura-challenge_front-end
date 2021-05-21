@@ -1,12 +1,13 @@
-body{
+body {
     position: relative;
-    /* width: 1440px;
-    height: 1024px; */
 
     background: #051D3B;
 }
 
-header{
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     position: absolute;
     width: 90%;
     height: 56px;
@@ -15,92 +16,36 @@ header{
 }
 
 .logo{
-    position: absolute;
-    width: 145px;
-    height: 34.05px;
-    left: 0px;
-    top: 12px;
+    height: 34px;
 }
 
-.text-filed {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-
-    position: absolute;
-    left: 22.67%;
-    right: 22.67%;
-    top: 0%;
-    bottom: 0%;
-}
-
- .barra-pesquisa {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+.barra-pesquisa {
     padding: 0px 16px;
 
-    position: static;
     width: 752px;
     height: 56px;
-    left: 0px;
-    top: 0px;
 
     background: rgba(255, 255, 255, 0.16);
+    border-radius: 8px;
     border: none;
-    border-radius: 8px;
+}
 
-    flex: none;
-    order: 0;
-    align-self: stretch;
-    flex-grow: 0;
-    margin: 0px 0px;
- }
-
- .author {
-    display: inline-block;
- 
+.author {
     padding: 12px;
+}
 
-    position: relative;
-    left: 92.3%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-    
-    border-radius: 8px;
- }
-
- .author label {
+.author label {
     display: flex;
 
     align-items: center;
-
-    width: 42px;
-    height: 32px;
-    left: 52px;
-    top: 12px;
     
     margin: 0px 8px;
 
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
     line-height: 24px;
 
     color: #FFFFFF;
- }
+}
 
  .author img {
-    left: 11.32%;
-    right: 58.49%;
-    top: 21.43%;
-    bottom: 21.43%;
-    
-    flex: none;
-    order: 0;
-    flex-grow: 0;
     margin: 0px 8px;
- }
+}
