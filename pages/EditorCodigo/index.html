@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="/pages/styles/reset.css">
     <link rel="stylesheet" href="/pages/styles/style.css">
 
-    <title>Página Inicial</title>
+    <title>AluraDev</title>
 </head>
 <body>
     <header>
         <div class="logo"><h1><img src="/pages/Images/Logo.svg" alt="Logo do site"></h1></div>
 
-        <div class="text-filed"><input type="text" placeholder="Busque por algo" class="barra-pesquisa"></div>
+        <div class="text-field"><input type="text" placeholder="Busque por algo" class="barra-pesquisa"></div>
 
         <div class="author">
             <label><img src="/pages/Images/author.svg" alt="Foto do Usuário">Harry</label>
@@ -22,18 +22,23 @@
     </header>
 
     <main>
-        <section class="menu">
-            <h2>Menu</h2>
-            <label class="label-editor-codigo">
-                <a href="#"><img src="/pages/Images/IconCode.svg" alt="Ícone code" class="img-menu"></a>Editor de código
-            </label>
-            <label class="label-comunidade">
-                <a href="#"><img src="/pages/Images/IconComunidade.svg" alt="Ícone de comunidade" class="img-menu"></a>Comunidade
-            </label>
-
-            <!-- <input type="button" value="" id="editor-codigo" class="input-editor-codigo">
-            <input type="button" value="" id="comunidade" class="input-comunidade"> -->
-        </section>
+        <div class="secao-main">
+            <section class="menu">
+                <h2>Menu</h2>
+                <label class="label-editor-codigo">
+                    <a href="#"><img src="/pages/Images/IconCode.svg" alt="Ícone code" class="img-menu"></a>Editor de código
+                </label>
+                <label class="label-comunidade">
+                    <a href="#"><img src="/pages/Images/IconComunidade.svg" alt="Ícone de comunidade" class="img-menu"></a>Comunidade
+                </label>
+            </section>
+            
+            <section class="editor-codigo">
+                <h2>Seu Projeto</h2>
+                <div class="text-field-editor-codigo"><input type="text" placeholder="Nome do seu projeto" class="barra-nome-projeto"></div>
+                <textarea class="descricao-projeto" id="descricao" cols="30" rows="10" placeholder="Algum texto"></textarea>
+            </section>
+        </div>
     </main>
 
 </body>
