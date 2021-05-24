@@ -1,6 +1,9 @@
 body {
     background: #051D3B;
     margin: 32px;
+
+    font-family: Inter;
+    font-size: 16px;
 }
 
 header {
@@ -28,6 +31,9 @@ header {
     background: rgba(255, 255, 255, 0.16);
     border-radius: 8px;
     border: none;
+
+    font-family: Inter;
+    font-size: 16px;
 
     color: #FFFFFF;
 }
@@ -99,6 +105,11 @@ header {
     margin-right: 16px;
 }
 
+.div-editor-codigo {
+    display: flex;
+    flex-direction: column;
+}
+
 .text-field-editor-codigo {
     display: flex;
 }
@@ -114,11 +125,15 @@ header {
     border-radius: 8px;
     border: none;
 
+    font-family: Inter;
+    font-size: 16px;
+
     color: #FFFFFF;
 }
 
 .descricao-projeto {
     padding: 16px;
+    margin-bottom: 2em;
 
     height: 56px;
 
@@ -128,5 +143,46 @@ header {
 
     resize: none;
 
+    font-family: Inter;
+    font-size: 16px;
+
     color: #FFFFFF;
+}
+
+.div-personalizar {
+    display: flex;
+    flex-direction: column;
+}
+
+.personalizar-linguagem {
+    flex-grow: 1;
+    padding: 0px 16px;
+    margin-bottom: 1em;
+
+    height: 56px;
+
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 8px;
+    border: none;
+
+    font-family: Inter;
+    font-size: 16px;
+
+    color: gray;
+}
+
+.div-personalizar-cor {
+    display: flex;
+}
+
+.input-personalizar-cor {
+    flex-grow: 1;
+
+    height: 56px;
+
+    background: rgba(255, 255, 255, 0.16);
+
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 8px;
 }
