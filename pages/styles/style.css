@@ -116,10 +116,13 @@ header {
 .campo-codigo {
     width: 60%;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .background-campo-codigo {
     display: flex;
+    flex-grow: 1;
 
     width: 90%;
     padding: 16px;
@@ -150,6 +153,27 @@ header {
     background: #141414;
 
     resize: none;
+
+    font-family: Inter;
+    font-size: 14px;
+
+    color: #FFFFFF;
+}
+
+.button-highlight {
+    width: calc(90% + 32px);
+    padding: 16px;
+
+    border-radius: 8px;
+    border: none;
+    margin-top: calc(2em - 4px);
+
+    height: 56px;
+
+    background: rgba(80, 129, 251, 0.08);
+
+    font-family: Inter;
+    font-size: 16px;
 
     color: #FFFFFF;
 }
