@@ -32,24 +32,36 @@
                     <a href="#"><img src="/pages/Images/IconComunidade.svg" alt="Ícone de comunidade" class="img-menu"></a>Comunidade
                 </label>
             </section>
+
+            <section class="campo-codigo">
+                <div class="background-campo-codigo">
+                    <div class="terminal">
+                        <div><img src="/pages/Images/mac_buttons.svg" alt="Representação dos Botões de um terminal Mac"></div>
+                        <textarea class="textarea-campo-codigo" name="campo-codigo" id="codigo" cols="30" rows="10"></textarea>
+                    </div>
+                    <!-- <input type="text" class="text-campo-codigo"> -->
+                </div>
+            </section>
             
             <div class="div-editor-codigo">
                 <section class="editor-codigo">
                     <h2>Seu Projeto</h2>
-                    <div class="text-field-editor-codigo"><input type="text" placeholder="Nome do seu projeto" class="barra-nome-projeto"></div>
-                    <textarea class="descricao-projeto" id="descricao" cols="30" rows="10" placeholder="Descrição do seu projeto"></textarea>
+                    <input type="text" placeholder="Nome do seu projeto" class="barra-nome-projeto">
+                    <textarea class="descricao-projeto" id="descricao" cols="20" rows="10" placeholder="Descrição do seu projeto"></textarea>
                 </section>
 
                 <section class="personalizar">
                     <h2>Personalização</h2>
                     <div class="div-personalizar">
                         <select name="linguagem" class="personalizar-linguagem">
-                            <option value="javascript">javascript</option>
+                            <option value="javaScript">javaScript</option>
                             <option value="HTML">HTML</option>
                             <option value="CSS">CSS</option>
                         </select>
                         
                         <div class="div-personalizar-cor"><input type="color" class="input-personalizar-cor" value="#6BD1FF"></div>
+
+                        <button class="salvar-projeto">Salvar Projeto</button>
                     </div>
                 </section>
             <div>
