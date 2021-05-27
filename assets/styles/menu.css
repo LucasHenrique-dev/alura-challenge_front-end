@@ -17,10 +17,18 @@
     width: 20%;
 }
 
+.menu-link {
+    cursor: auto;
+}
+
 .label-editor-codigo {
     display: flex;
     align-items: center;
     margin-bottom: 1em;
+
+    width: fit-content;
+
+    white-space: nowrap;
 }
 
 .label-comunidade {
@@ -31,7 +39,10 @@
 .img-menu {
     display: flex;
     border-radius: 16px;
-    margin-right: 16px;
+}
+
+.button-text {
+    margin-left: 16px;
 }
 /* 
 .div-editor-codigo:hover {
