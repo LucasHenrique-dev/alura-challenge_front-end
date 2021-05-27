@@ -109,6 +109,12 @@ header {
     align-items: center;
 }
 
-.img-menu {
+.div-editor-codigo {
+    display: flex;
+    border-radius: 16px;
     margin-right: 16px;
 }
+/* 
+.div-editor-codigo:hover {
+    background-color: #355DB6;
+} */
