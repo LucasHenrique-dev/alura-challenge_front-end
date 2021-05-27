@@ -1,4 +1,4 @@
-const editorCodigoLabel = document.querySelector('[data-label-menu]');
+const editorCodigoLabel = document.querySelector('[data-label-editor-codigo]');
 const paragrafo = editorCodigoLabel.querySelector('[data-p-editor-codigo]');
 const linkImg = editorCodigoLabel.querySelector('[data-img-editor-codigo]');
 

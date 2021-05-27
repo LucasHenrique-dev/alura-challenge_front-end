@@ -1,0 +1,72 @@
+header {
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    /* flex-grow: 1; */
+    width: 20%;
+    height: 34px;
+}
+
+.text-field {
+    /* flex-grow: 3; */
+    width: 60%;
+    display: flex;
+}
+
+.barra-pesquisa {
+    /* flex-grow: 1; */
+    width: 90%;
+
+    padding: 0px 16px;
+
+    height: 56px;
+
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 8px;
+    border: none;
+
+    font-family: Inter;
+    font-size: 16px;
+
+    color: #FFFFFF;
+}
+
+::-webkit-input-placeholder {
+    color: #FFFFFF;
+}
+  
+:-moz-placeholder { /* Firefox 18- */
+    color: #FFFFFF;  
+}
+  
+::-moz-placeholder {  /* Firefox 19+ */
+    color: #FFFFFF;  
+}
+  
+:-ms-input-placeholder {  
+    color: #FFFFFF;  
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    width: 20%;
+    /* flex-grow: 1; */
+    /* padding: 12px; */
+}
+
+.author label {
+    display: flex;
+
+    align-items: center;
+    
+    margin: 0px 8px;
+
+    color: #FFFFFF;
+}
+
+ .author img {
+    margin: 0px 8px;
+}

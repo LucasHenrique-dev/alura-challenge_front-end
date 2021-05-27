@@ -1,0 +1,39 @@
+.secao-main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4em;
+    color: #FFFFFF;
+}
+
+.secao-main h2 {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.menu {
+    width: 20%;
+}
+
+.label-editor-codigo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.label-comunidade {
+    display: flex;
+    align-items: center;
+}
+
+.img-menu {
+    display: flex;
+    border-radius: 16px;
+    margin-right: 16px;
+}
+/* 
+.div-editor-codigo:hover {
+    background-color: #355DB6;
+} */
