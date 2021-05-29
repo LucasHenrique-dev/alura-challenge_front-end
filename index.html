@@ -26,24 +26,24 @@
 
     <main>
         <div class="secao-main">
-            <section class="menu">
+            <section class="menu" data-section-menu>
                 <h2>Menu</h2>
-                <label class="label-editor-codigo" data-label-editor-codigo>
+                <label class="label-editor-codigo" data-label-menu>
                     <a class="menu-link" href="/index.html">
-                        <div class="img-menu" data-div-editor-codigo>
-                            <img src="/assets/Images/IconCodeCongelado.svg" alt="Ícone code" class="img-code-menu" data-img-editor-codigo>
+                        <div class="img-menu">
+                            <img src="/assets/Images/IconCodePressionado.svg" alt="Ícone code" class="img-code-menu" data-img-menu>
                         </div>
                     </a>
-                    <p class="button-text" data-p-editor-codigo>Editor de código</p>
+                    <p class="button-text">Editor de código</p>
                 </label>
 
-                <label class="label-comunidade" data-label-comunidade>
+                <label class="label-comunidade" data-label-menu>
                     <a class="menu-link" href="/comunidade.html">
-                        <div class="img-menu" data-div-comunidade>
-                            <img src="/assets/Images/IconComunidadePressionada.svg" alt="Ícone de comunidade" class="img-comunidade-menu" data-img-comunidade>
+                        <div class="img-menu">
+                            <img src="/assets/Images/IconComunidadeCongelado.svg" alt="Ícone de comunidade" class="img-comunidade-menu" data-img-menu>
                         </div>
                     </a>
-                    <p class="button-text" data-p-comunidade>Comunidade</p>
+                    <p class="button-text">Comunidade</p>
                 </label>
             </section>
 
@@ -53,7 +53,6 @@
                         <div><img src="/assets/Images/mac_buttons.svg" alt="Representação dos Botões de um terminal Mac"></div>
                         <textarea class="textarea-campo-codigo" name="campo-codigo" id="codigo" cols="30" rows="10"></textarea>
                     </div>
-                    <!-- <input type="text" class="text-campo-codigo"> -->
                 </div>
         
                 <input type="button" class="button-highlight" value="Visualizar com o highlight"></input>
@@ -85,6 +84,7 @@
         </div>
     </main>
 
-    <script src="/components/menu.js"></script>
 </body>
+
+<script src="scripts/botaoFuncional.js"></script>
 </html>
