@@ -11,12 +11,8 @@ function updateFirst(event) {
 function watchColorPicker() {
 
     const colorBackgroundStyle = colorBackground.style;
-    // const colorBackgroundTransform = colorBackgroundStyle.transform;
 
-    colorBackgroundStyle.animation = 'pulse 2s alternate';
+    colorBackgroundStyle.animation = "pulse 2s infinite";
 
-    // colorBackgroundStyle.transition = "transform 2s";
-    // colorBackgroundStyle.transform = "scale(1.05)";
-
-    console.log("funfa");
+    setTimeout(() => colorBackgroundStyle.animation = "", 1000);
 }
