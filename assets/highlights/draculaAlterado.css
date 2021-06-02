@@ -10,7 +10,7 @@ pre code.hljs {
   
   .hljs {
     color: #a9b7c6;
-    background: #141414;
+    /* background: #2b2b2b; */
   }
   
   .hljs ::selection {
