@@ -44,23 +44,19 @@
     background: #141414;
 }
 
-.textarea-campo-codigo {
+.code-campo-codigo {
     flex-grow: 1;
     
-    padding: 16px;
-    border: none;
-    border-radius: 8px;
+    /* padding: 16px; */
+    /* border: none;
+    border-radius: 8px; */
     margin-top: 1rem;
     outline: none;
 
-    background: #141414;
-
-    resize: none;
+    /* background: #141414; */
 
     font-family: Inter;
     font-size: 14px;
-
-    color: #FFFFFF;
 }
 
 .button-highlight {

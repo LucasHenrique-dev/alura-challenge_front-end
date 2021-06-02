@@ -1,4 +1,4 @@
-const colorBackground = document.querySelector('[data-color-background]');
+(() => {const colorBackground = document.querySelector('[data-color-background]');
 const colorPicker = document.querySelector('[data-personalizar-cor]');
 
 colorPicker.addEventListener("input", updateFirst, false);
@@ -15,4 +15,4 @@ function watchColorPicker() {
     colorBackgroundStyle.animation = "pulse 2s infinite";
 
     setTimeout(() => colorBackgroundStyle.animation = "", 1000);
-}
+}})()

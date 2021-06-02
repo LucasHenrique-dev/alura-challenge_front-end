@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="/assets/styles/menu.css">
     <link rel="stylesheet" href="/assets/styles/campoCodigo.css">
     <link rel="stylesheet" href="/assets/styles/style.css">
+    <link rel="stylesheet" href="/assets/highlights/draculaAlterado.css">
 
     <title>AluraDev- Editor de Código</title>
 </head>
@@ -49,13 +50,13 @@
 
             <section class="campo-codigo">
                 <div class="background-campo-codigo" data-color-background>
-                    <div class="terminal">
+                    <div class="terminal" data-code-area>
                         <div><img src="/assets/Images/mac_buttons.svg" alt="Representação dos Botões de um terminal Mac"></div>
-                        <textarea class="textarea-campo-codigo" name="campo-codigo" id="codigo" cols="30" rows="10"></textarea>
+                        <code class="code-campo-codigo hljs" name="campo-codigo" id="codigo" contenteditable="true" aria-label="editor"></code>
                     </div>
                 </div>
         
-                <input type="button" class="button-highlight" value="Visualizar com o highlight"></input>
+                <input type="button" class="button-highlight" value="Visualizar com o highlight" data-highlight-button></input>
         
             </section>
             
@@ -69,7 +70,7 @@
                 <section class="personalizar">
                     <h2>Personalização</h2>
                     <div class="div-personalizar">
-                        <select name="linguagem" class="personalizar-linguagem">
+                        <select name="linguagem" class="personalizar-linguagem" data-language-selection>
                             <option value="javaScript">javaScript</option>
                             <option value="HTML">HTML</option>
                             <option value="CSS">CSS</option>
@@ -88,4 +89,6 @@
 
 <script src="scripts/botaoFuncional.js"></script>
 <script src="/scripts/editorCodigo.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/highlight.min.js"></script>
+<script src="/scripts/highlight.js"></script>
 </html>
