@@ -37,28 +37,34 @@
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+
+    width: inherit;
+    height: 49vh;
+
     margin: 16px;
     padding: 16px;
     border: none;
     border-radius: 8px;
+    box-sizing: border-box;
+
     background: #141414;
+}
+
+.code-content {
+    display: flex;
+    flex-grow: 1;
+    overflow: auto;
 }
 
 .code-campo-codigo {
     flex-grow: 1;
     
-    /* padding: 16px; */
-    /* border: none; */
     border-radius: 8px;
     margin-top: 1rem;
     outline: none;
 
-    /* background: #141414; */
-
-    font-family: Inter;
+    font-family: monospace;
     font-size: 14px;
-
-    text-decoration: dashed;
 }
 
 .button-highlight {
