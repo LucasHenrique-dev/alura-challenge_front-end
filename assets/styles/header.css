@@ -4,19 +4,16 @@ header {
 }
 
 .logo{
-    /* flex-grow: 1; */
     width: 20%;
     height: 34px;
 }
 
 .text-field {
-    /* flex-grow: 3; */
     width: 60%;
     display: flex;
 }
 
 .barra-pesquisa {
-    /* flex-grow: 1; */
     width: 90%;
 
     padding: 0px 16px;
@@ -42,7 +39,7 @@ header {
 }
   
 ::-moz-placeholder {  /* Firefox 19+ */
-    color: #FFFFFF;  
+    color: #ffffff;
 }
   
 :-ms-input-placeholder {  
@@ -53,8 +50,6 @@ header {
     display: flex;
     justify-content: flex-end;
     width: 20%;
-    /* flex-grow: 1; */
-    /* padding: 12px; */
 }
 
 .author label {

@@ -40,6 +40,7 @@
 
     width: inherit;
     height: 49vh;
+    min-height: calc(100% - 32px);
 
     margin: 16px;
     padding: 16px;
@@ -53,7 +54,40 @@
 .code-content {
     display: flex;
     flex-grow: 1;
-    overflow: auto;
+    overflow: auto;    
+}
+
+/* Works on Firefox */
+.code-content {
+    scrollbar-width: thin;
+    scrollbar-color: #3D3D3D #141414;
+
+    -ms-overflow-style: none;  /* IE and Edge */
+}
+
+/* Works on Chrome, Edge, and Safari */
+.code-content::-webkit-scrollbar {
+    width: 0;
+    height: 14px;
+}
+
+.code-content::-webkit-scrollbar-corner {
+    background-color: #141414;
+}
+
+.code-content::-webkit-scrollbar-track {
+    background: #141414;
+}
+
+.code-content::-webkit-scrollbar-thumb {
+    background-color: #3D3D3D;
+    border-radius: 20px;
+    border: 3px solid #141414;
+}
+
+/* Cor do indicador de rolagem - ao passar o mouse */
+.code-content::-webkit-scrollbar-thumb:horizontal:hover {
+    background-color: #525252
 }
 
 .code-campo-codigo {
