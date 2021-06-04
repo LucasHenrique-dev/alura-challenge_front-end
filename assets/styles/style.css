@@ -1,12 +1,12 @@
 body {
     background: #051D3B;
-    margin: 32px;
+    margin: 32px 32px 0px 32px;
 
     font-family: Inter;
     font-size: 16px;
 }
 
-:is(input, textarea) {
+:is(input, textarea, select) {
     outline: none;
 }
 
