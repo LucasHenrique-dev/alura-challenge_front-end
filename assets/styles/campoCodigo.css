@@ -38,7 +38,7 @@
     flex-direction: column;
     flex-grow: 1;
 
-    width: inherit;
+    width: calc(100% - 32px);
     height: 49vh;
     min-height: calc(100% - 32px);
 

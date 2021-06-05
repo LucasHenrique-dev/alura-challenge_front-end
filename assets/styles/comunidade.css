@@ -6,3 +6,87 @@ body {
     font-size: 16px;
 }
 
+.barra-pesquisa {
+    outline: none;
+}
+
+.cartoes-projetos {
+    width: 80%;
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+
+.cartao-projeto {
+    /* display: flex;
+    flex-direction: column; */
+    flex-grow: 1;
+    width: 49%;
+
+    border-radius: 8px;
+
+    background: rgba(0, 0, 0, 0.16);
+
+    overflow: hidden;
+}
+
+.cartao-projeto:nth-child(2n-1) {
+    margin-right: 1em;
+}
+
+.cartao-projeto:nth-child(n+3) {
+    margin-top: 1em;
+}
+
+.cartao-projeto:last-child {
+    margin-right: 0;
+}
+
+.background-campo-codigo {
+    width: auto;
+    height: 70%;
+}
+
+.info-projeto {
+    padding: 24px;
+}
+
+.info-projeto:hover {
+    overflow: auto;
+}
+
+.titulo-projeto {
+    font-size: 21px;
+}
+
+.descricao-projeto {
+    margin-top: 1em;
+
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+.cartao-section-img {
+    display: flex;
+    margin-top: 2em;
+    padding: 10px;
+
+    justify-content: space-between;
+}
+
+.conjunto-comment-like {
+    display: flex;
+}
+
+.cartao-img-autor {
+    margin-left: 32px;
+}
+
+.cartao-img-comment {
+    margin-right: 1em;
+}
+
+.cartao-img-like {
+    margin-right: 1em;
+}
+

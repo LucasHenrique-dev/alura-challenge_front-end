@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,13 +9,17 @@
     <link rel="stylesheet" href="/assets/styles/reset.css">
     <link rel="stylesheet" href="/assets/styles/header.css">
     <link rel="stylesheet" href="/assets/styles/menu.css">
+    <link rel="stylesheet" href="/assets/styles/campoCodigo.css">
     <link rel="stylesheet" href="/assets/styles/comunidade.css">
 
     <title>AluraDev- Comunidade</title>
 </head>
-<body>
+
+<body spellcheck="false">
     <header>
-        <div class="logo"><h1><img src="/assets/Images/Logo.svg" alt="Logo do site"></h1></div>
+        <div class="logo">
+            <h1><img src="/assets/Images/Logo.svg" alt="Logo do site"></h1>
+        </div>
 
         <div class="text-field"><input type="text" placeholder="Busque por algo" class="barra-pesquisa"></div>
 
@@ -24,13 +29,14 @@
     </header>
 
     <main>
-        <div class="secao-main">            
+        <div class="secao-main">
             <section class="menu" data-section-menu>
                 <h2>Menu</h2>
                 <label class="label-editor-codigo" data-label-menu>
                     <a class="menu-link" href="/index.html">
                         <div class="img-menu">
-                            <img src="/assets/Images/IconCodeCongelado.svg" alt="Ícone code" class="img-code-menu" data-img-menu>
+                            <img src="/assets/Images/IconCodeCongelado.svg" alt="Ícone code" class="img-code-menu"
+                                data-img-menu>
                         </div>
                     </a>
                     <p class="button-text">Editor de código</p>
@@ -39,15 +45,65 @@
                 <label class="label-comunidade" data-label-menu>
                     <a class="menu-link" href="/comunidade.html">
                         <div class="img-menu">
-                            <img src="/assets/Images/IconComunidadePressionada.svg" alt="Ícone de comunidade" class="img-comunidade-menu" data-img-menu>
+                            <img src="/assets/Images/IconComunidadePressionada.svg" alt="Ícone de comunidade"
+                                class="img-comunidade-menu" data-img-menu>
                         </div>
                     </a>
                     <p class="button-text">Comunidade</p>
                 </label>
             </section>
-        <div>
+            
+            <section class="cartoes-projetos">
+                <div class="cartao-projeto">
+                    <div class="background-campo-codigo" data-color-background>
+                        <div class="terminal" data-code-area>
+                            <div><img src="/assets/Images/mac_buttons.svg" alt="Representação dos Botões de um terminal Mac"></div>
+                            <pre class="code-content">
+                                <code class="code-campo-codigo" contenteditable="true" aria-label="editor"></code>
+                            </pre>
+                        </div>
+                    </div>
+                    <section class="info-projeto">
+                        <h3 class="titulo-projeto">Título do Projeto</h3>
+                        <p class="descricao-projeto">Essa é a descrição do meu projeto.</p>
+                        <section class="cartao-section-img">
+                            <div class="conjunto-comment-like">
+                                <img src="/assets/Images/IconComent.svg" alt="Ícone de cometário" class="cartao-img-comment">
+                                <img src="/assets/Images/IconHeart.svg" alt="Ícone de likes" class="cartao-img-like">
+                            </div>
+                            <div class="cartao-img-autor">
+                                <img src="/assets/Images/author.svg" alt="Imagem de perfil do autor do código">
+                            </div>
+                        </section>
+                    </section>
+                </div>
+                <div class="cartao-projeto">
+                    <div class="background-campo-codigo" data-color-background>
+                        <div class="terminal" data-code-area>
+                            <div><img src="/assets/Images/mac_buttons.svg" alt="Representação dos Botões de um terminal Mac"></div>
+                            <pre class="code-content">
+                                <code class="code-campo-codigo" contenteditable="true" aria-label="editor"></code>
+                            </pre>
+                        </div>
+                    </div>
+                    <section class="info-projeto">
+                        <h3 class="titulo-projeto">Título do Projeto</h3>
+                        <p class="descricao-projeto">Essa é a descrição do meu projeto.</p>
+                        <section class="cartao-section-img">
+                            <div class="conjunto-comment-like">
+                                <img src="/assets/Images/IconComent.svg" alt="Ícone de cometário" class="cartao-img-comment">
+                                <img src="/assets/Images/IconHeart.svg" alt="Ícone de likes" class="cartao-img-like">
+                            </div>
+                            <div class="cartao-img-autor">
+                                <img src="/assets/Images/author.svg" alt="Imagem de perfil do autor do código">
+                            </div>
+                        </section>
+                    </section>
+                </div>
+            </section>
+        </div>
     </main>
-  
+
 </body>
 
 <script src="/scripts/botaoFuncional.js"></script>
