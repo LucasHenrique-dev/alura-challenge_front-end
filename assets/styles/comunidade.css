@@ -70,6 +70,8 @@ body {
     margin-top: 2em;
     padding: 10px;
 
+    align-items: center;
+
     justify-content: space-between;
 }
 
@@ -82,10 +84,20 @@ body {
 }
 
 .cartao-img-comment {
+    display: flex;
+    align-items: center;
     margin-right: 1em;
+}
+
+.cartao-img-comment img {
+    margin-right: 10px;
 }
 
 .cartao-img-like {
-    margin-right: 1em;
+    display: flex;
+    align-items: center;
 }
 
+.cartao-img-like img {
+    margin-right: 10px;
+}

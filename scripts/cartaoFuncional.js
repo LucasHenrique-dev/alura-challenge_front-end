@@ -1,14 +1,28 @@
 (() => {
-    const descricaoProjetos = document.querySelectorAll('.info-projeto');
-
+    const descricaoProjetos = document.querySelectorAll('[data-info-projeto]');
+    
+    
+    
     for (const descricaoProjeto of descricaoProjetos) {
-        const autor = document.querySelector('.cartao-section-img');
-
+        
+        const comment = descricaoProjeto.querySelector('[data-cartao-p-comment]');
+        const like = descricaoProjeto.querySelector('[data-cartao-p-like]');
+        const autor = descricaoProjeto.querySelector('.cartao-section-img');
+        
         const descricaoProjetoStyle = descricaoProjeto.style;
-
+        
+        const commentContent = comment.innerHTML;
+        const likeContent = like.innerHTML;
+        
         const alturaPadrao = descricaoProjeto.offsetHeight;
         const autorHeight = autor.clientHeight;
 
+        const commentCont = Math.round(Math.random()*100);
+        const likeCont = Math.round(Math.random()*100);
+        
+        comment.innerHTML = commentContent + commentCont;
+        like.innerHTML = likeContent + likeCont;
+        
         descricaoProjetoStyle.height = autorHeight + 'px';
 
         descricaoProjeto.addEventListener('mouseover', () => {
