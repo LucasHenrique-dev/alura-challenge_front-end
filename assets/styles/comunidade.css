@@ -79,17 +79,13 @@ body {
     display: flex;
 }
 
-.cartao-img-autor {
-    margin-left: 32px;
-}
-
 .cartao-img-comment {
     display: flex;
     align-items: center;
     margin-right: 1em;
 }
 
-.cartao-img-comment img {
+.img-projeto {
     margin-right: 10px;
 }
 
@@ -98,6 +94,11 @@ body {
     align-items: center;
 }
 
-.cartao-img-like img {
-    margin-right: 10px;
+.cartao-img-autor {
+    margin-left: 32px;
+}
+
+.cartao-p-autor {
+    display: flex;
+    align-items: center;
 }
