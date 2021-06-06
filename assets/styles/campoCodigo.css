@@ -116,5 +116,13 @@
     font-family: Inter;
     font-size: 16px;
 
+    cursor: pointer;
+
     color: #FFFFFF;
+
+    transition: 400ms;
+}
+
+.button-highlight:hover {
+    background: rgba(80, 129, 251, 0.16);
 }

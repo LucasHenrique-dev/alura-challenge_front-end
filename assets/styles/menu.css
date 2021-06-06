@@ -11,6 +11,8 @@
     letter-spacing: 0.4em;
     text-transform: uppercase;
     margin-bottom: 1rem;
+
+    user-select: none;
 }
 
 .menu {

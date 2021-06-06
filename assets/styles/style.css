@@ -42,7 +42,15 @@ body {
     font-family: Inter;
     font-size: 16px;
 
+    cursor: pointer;
+
     color: #FFFFFF;
+
+    transition: 400ms;
+}
+
+.barra-nome-projeto:hover {
+    background: rgba(255, 255, 255, 0.24);
 }
 
 .descricao-projeto {
@@ -60,7 +68,15 @@ body {
     font-family: Inter;
     font-size: 16px;
 
+    cursor: pointer;
+
     color: #FFFFFF;
+
+    transition: 400ms;
+}
+
+.descricao-projeto:hover {
+    background: rgba(255, 255, 255, 0.24);
 }
 
 .div-personalizar {
@@ -83,6 +99,12 @@ body {
     font-size: 16px;
 
     color: gray;
+
+    transition: 400ms;
+}
+
+.personalizar-linguagem:hover {
+    background: rgba(255, 255, 255, 0.24);
 }
 
 .div-personalizar-cor {
@@ -124,5 +146,11 @@ input[type=color]::-moz-color-swatch {
     font-family: Inter;
     font-size: 16px;
 
+    cursor: pointer;
+
     color: #051D3B;
+}
+
+.salvar-projeto:hover {
+    background: #7BA4FC;
 }

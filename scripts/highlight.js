@@ -34,7 +34,6 @@
         const paiCodigoStyle = paiCodigo.style;
 
         paiCodigoStyle.overflow = "hidden";
-        console.log(paiCodigoStyle);
 
         hljs.highlightBlock(codigo);
     });
