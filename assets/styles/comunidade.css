@@ -18,16 +18,10 @@ body {
 }
 
 .cartao-projeto {
-    /* display: flex;
-    flex-direction: column; */
+    display: flex;
+    flex-direction: column;
     flex-grow: 1;
     width: 49%;
-
-    border-radius: 8px;
-
-    background: rgba(0, 0, 0, 0.16);
-
-    overflow: hidden;
 }
 
 .cartao-projeto:nth-child(2n-1) {
@@ -42,17 +36,22 @@ body {
     margin-right: 0;
 }
 
+.cartao-codigo {
+    background: rgba(0, 0, 0, 0.16);
+}
+
 .background-campo-codigo {
     width: auto;
-    height: 70%;
 }
 
 .info-projeto {
     padding: 24px;
-}
 
-.info-projeto:hover {
-    overflow: auto;
+    overflow: hidden;
+
+    border-radius: 0px 0px 8px 8px;
+
+    background: rgba(0, 0, 0, 0.16);
 }
 
 .titulo-projeto {
