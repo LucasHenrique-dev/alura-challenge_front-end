@@ -35,6 +35,6 @@
 
         paiCodigoStyle.overflow = "hidden";
 
-        hljs.highlightBlock(codigo);
+        hljs.highlightElement(codigo);
     });
 })()
