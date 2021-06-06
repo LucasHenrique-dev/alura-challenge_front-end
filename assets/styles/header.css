@@ -60,6 +60,17 @@ header {
     width: 20%;
 }
 
+.author-background {
+    padding: 12px;
+    border-radius: 8px;
+
+    transition: 400ms;
+}
+
+.author-background:hover {
+    background: rgba(255, 255, 255, 0.08);
+}
+
 .author label {
     display: flex;
 
@@ -71,5 +82,5 @@ header {
 }
 
  .author img {
-    margin: 0px 8px;
+    margin: 0px 8px 0px 0px;
 }
