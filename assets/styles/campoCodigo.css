@@ -103,7 +103,6 @@
 
 .button-highlight {
     width: calc(90% + 32px);
-    padding: 16px;
 
     border-radius: 8px;
     border: none;

@@ -25,8 +25,10 @@
 
         if (!botao.classList.contains('focus') && focusCont == 0) {
             botaoStyle.background = 'rgba(80, 129, 251, 0.16)';
-        
-            botaoStyle.border = '4px solid rgba(80, 129, 251, 0.24)';
+
+            botaoStyle.boxShadow = '0 0 0 4px rgba(80, 129, 251, 0.24)';
+
+            botaoStyle.transform = 'border scale(2)';
         
             botao.classList.add('focus');
 
@@ -42,7 +44,7 @@
     function desativarFocus() {
         botaoStyle.background = 'rgba(80, 129, 251, 0.24)';
 
-        botaoStyle.border = 'hidden';
+        botaoStyle.boxShadow = '0 0 0 0 rgba(80, 129, 251, 0.24)';
 
         botaoStyle.cursor = 'default';
 
