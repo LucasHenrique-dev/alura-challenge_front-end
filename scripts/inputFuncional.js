@@ -1,14 +1,16 @@
-const inputs = document.querySelectorAll('[data-input-efeito]');
+(() => {
+    const inputs = document.querySelectorAll('[data-input-efeito]');
 
-for (const input of inputs) {
+    for (const input of inputs) {
 
-    const inputStyle = input.style;
+        const inputStyle = input.style;
 
-    input.addEventListener('blur', () => {
-        inputStyle.cursor = 'pointer';
-    });
-    
-    input.addEventListener('focus', () => {
-        inputStyle.cursor = 'default';
-    });
-}
+        input.addEventListener('blur', () => {
+            inputStyle.cursor = 'pointer';
+        });
+        
+        input.addEventListener('focus', () => {
+            inputStyle.cursor = 'default';
+        });
+    }
+})()
